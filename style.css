@@ -25,3 +25,20 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+main.container{
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+section.score-csrd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3x 3px 10px 1px;
+    color: var(--grey);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
