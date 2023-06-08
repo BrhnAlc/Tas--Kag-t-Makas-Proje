@@ -1,2 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --yellow: #ffc538;
+    --red: #fb778b;
+    --green: #5ab7ac;
+    --black: #121212;
+    --grey: #cbcadad9;
+    --ff-comfortaa: "Comfortaa", cursive;
+    --ff-oswald: "Oswald", sans-serif;
+  } 
