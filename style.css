@@ -17,3 +17,11 @@
     --ff-comfortaa: "Comfortaa", cursive;
     --ff-oswald: "Oswald", sans-serif;
   } 
+body{
+    background-color: var(--black);
+    font-family: var(--ff-comfortaa);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
