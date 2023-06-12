@@ -1,30 +1,21 @@
-            //!SELECTORS
-  const rockImg=document.querySelector(`#rock`);
-  
-  const paperImg=document.querySelector(`#paper`);
-
-  const scissorImg=document.querySelector(`#scissor`);
-
-  const yourChoiceDiv=document.querySelector(`#your-choice`);
-
-  const pcChoice=document.querySelector(`#your-choice`);
-  
-
+             //! SELECTİON
+       
+const selectionArticle=document.querySelector(`.selection`)    
+const yourChoiceDiv=document.querySelector(`#your-choice`)
           //! VARİABLES
 
-
+          let userSelectImage=document.createElement(`img`);
           //!EVENT
 
-    rockImg.addEventListener(`click`,function(){
-        let image=document.createElement(`img`);
-
-     image.src="./assets/rock.png";
-
-     image.alt="rock";
-
-    yourChoiceDiv.appendChild(image);
-     
+    selectionArticle.addEventListener(`click`,function(e){
+ console.log(e.target.id);
+if(e.target.id){
+   userSelectImage.src=`./assets/${e.target.id}.png`
+    userSelectImage.alt=e.target.id
+    yourChoiceDiv.appendChild(userSelectImage)
+}
 
 
 
     })
+    
